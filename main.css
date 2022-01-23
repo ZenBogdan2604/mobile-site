@@ -92,3 +92,16 @@ a:hover{
     padding: 10px 30px; color: #fff; font-size: 0.875rem; text-transform: uppercase;
     border: 1px solid #fff; text-decoration: none; border-radius: 6px;
 }
+.header-content{
+    text-align: center; color: #fff;
+}
+.header-content h1{
+    font-weight: 700; text-transform: uppercase; font-size: 4.5rem; margin-bottom: 40px;
+}
+.header-content h2{
+  font-size: 1.5rem; font-weight: 500; line-height: 1.5; margin-bottom: 60px;
+}
+.white-btn{
+  padding: 10px 30px; color: rgb(226, 17, 17); font-size: 0.875rem; text-transform: uppercase;
+  background: #fff; text-decoration: none; border-radius: 6px;
+}
