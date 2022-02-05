@@ -196,7 +196,140 @@ a:hover{
 .download-app a{
   margin-right: 1rem;
 }
+.contact-wrap{
+  padding: 100px 0;
+}
+.contact-block{
+  display: flex;
+}
+.contact-block-left{
+  width: 42%; margin-right: 8%; align-self: center;
+}
+.contact-block-right{
+  width: 50%; 
+}
+.contact-block-left h2{
+  font-size: 2.25rem; font-weight: 500; margin-bottom: 2rem;
+}
+.contact-block-left p{
+  font-size: 0.875rem; font-weight: 400; margin-bottom: 1rem;
+}
+.input-txt{
+  border: 1px solid #333; border-radius: 6px; display: block; width: 100%; padding: 20px 30px;
+  margin-bottom: 1rem; outline: none;
+}
+.red-btn{
+  padding: 10px 30px; color: #fff; font-size: 0.875rem; text-transform: uppercase;
+  background: #ED4C5C; text-decoration: none; border-radius: 6px; border: none;
+  cursor: pointer;
+}
 
+.footer-wrap{
+  padding: 50px 0; background: #fafafa;
+}
+.footer-block{
+  color: #101010; font-size: 0.75rem;
+}
+.footer-block-item{
+  margin-bottom: 2rem;
+}
+.footer-block-item h3{
+  font-weight: 700; font-size: 1.125rem; margin-bottom: 1rem;
+}
+
+@media (max-width:800px){
+  .header-wrap-color{
+      padding-top: 20px;
+  }
+  .header-top{
+      flex-direction: column;
+  }
+  .header-top-logo{
+      order: 1; align-self: flex-start;
+  }
+  .header-top-menu{
+      order: 3;
+  }
+  .header-top-button{
+      order: 2; align-self: flex-end; margin: -23px 0 50px 0;
+  }
+  .menu li{
+      margin-bottom: 15px;
+  }
+  .menu{
+      justify-content: center;
+  }
+
+  .about-block{
+      flex-direction: column-reverse; 
+  }
+  .about-block-left, .about-block-right{
+      width: 100%; margin: 0  0 2rem 0;
+  }
+  .about-block-right img{
+      margin: 0 auto;
+  }
+  .posibilities-block{
+      flex-direction: column; gap: 3rem; align-items: center;
+  }
+  .tech-block {
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .tech-blcok-item{
+      max-width: 40%;
+  }
+
+  .download-block{
+      flex-direction: column-reverse; 
+  }
+  .download-block-left, .download-block-right{
+      width: 100%; margin: 0  0 2rem 0;
+  }
+  .download-block-right img{
+      margin: 0 auto;
+  }
+
+  .contact-block{
+      flex-direction: column; 
+  }
+  .contact-block-left, .contact-block-right{
+      width: 80%; margin: 0  0 2rem 0; align-self: center;
+  }
+}
+
+@media (max-width:600px){
+  .header-content h1{
+      font-size: 3rem;
+  }
+  .header-content h2{
+      font-size: 1.125rem;
+  }
+  .header-top{
+      margin-bottom: 100px;
+  }
+  .about-block-left h2, .download-block-left h2, .contact-block-left h2{
+      font-size: 1.5rem;
+  }
+  .posibilities-wrap h2, .tech-wrap h2{
+      font-size: 2rem;
+  }
+  .tech-block{
+      flex-direction: column;
+  }
+  .tech-blcok-item{
+      max-width: 200px; align-self: center;
+  }
+
+  .contact-block-left, .contact-block-right{
+      width: 100%; 
+  }
+}
+@media (max-width:375px){
+  .header-content h1{
+      font-size: 2rem;
+  }
+}
 
 
 
